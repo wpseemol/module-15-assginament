@@ -9,6 +9,7 @@
 
 ## About Project
 
-This project for <a href="https://ostad.app/dashboard/my-courses/6543c3edd5b18c024b743d1e/module/65da34f22fb193b4d36d0b1a"><b>Ostad</b></a> module 15 assignment
+This project for <a href="https://ostad.app/dashboard/my-courses/6543c3edd5b18c024b743d1e/module/65da34f22fb193b4d36d0b1a"><b>Ostad</b></a> module 15 assignment.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-   laravel Dynamic route.
+-   Set Cookie.
