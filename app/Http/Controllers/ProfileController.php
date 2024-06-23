@@ -19,9 +19,18 @@ class ProfileController extends Controller {
             'age'  => $age,
         ];
 
-        $statusCode = 201;
+        $statusCode = 200;
 
-        return response()->json( $data, $statusCode );
+        $name = "access_token";
+        $value = "123-XYZ";
+        $minutes = 1;
+        $path = '/';
+        $domain = $_SERVER['SERVER_NAME'];
+        $secure = false;
+        $http_only = true;
 
+        $cookie = cookie( $name, $value, $minutes, $path, $domain, $secure, $http_only );
+
+        return response()->json( $data, $statusCode )->cookie( $cookie );
     }
 }
